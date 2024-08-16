@@ -1,0 +1,133 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body {
+    background-color: #4e5a5a;
+    box-sizing: border-box
+}
+
+button {
+    border-radius: 50px;
+    width: 100px;
+    height: 6vh;
+    font-size: large;
+
+}
+
+section {
+    display: flex;
+ column-gap: 10px;
+ margin-top: 50px;
+ justify-content:left;
+ font-size: large;
+}
+
+.b {
+    flex-wrap: wrap;
+}
+header{
+    text-align: center;
+}
+#Principal{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#fotter{
+    margin-right: 200px;
+}
+/*Cadastro*/
+#cadastro2{
+    margin-left: 50px;
+    display: grid;
+    grid-template-rows:50px 50px 50px 50px 50px;
+
+    
+}
+.cadastro{
+    font-size: 30px;
+    color: white;
+}
+input{
+border-radius: 10%;
+width: 300px;
+height: 30px;}
+#volt{
+    margin-left: 90%;
+    font-size: large;
+    margin-top: -100px;
+}
+#enviarC{
+    margin-top: 50px;
+}
+/*Cadastro*/
+/*Quem somos*/
+h1{
+    color: white;
+}
+#Quemsos{
+font-size: 30px;
+color: white;
+}
+#voltQ{
+    margin-left: 90%;
+    font-size: large;
+    margin-bottom: 200px;
+}
+/*Contato*/
+#contaS{
+    height: 55vh;
+    display: grid;
+    grid-template-rows: 45px 45px 45px 45px   ;
+}
+#Eviar2{
+    width: 70px;
+    height: 50px;
+}
+#voltC{
+    margin-left: 1200px;
+}
+/*contato*/
+/*Pedidos*/
+#SecPed{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 50px 50px 50px 50px ;
+    height: 55vh;
+}
+.Txt{
+    font-size: large;
+    color: white;
+}
+.inputt{
+    border-radius: 40%;
+    width: 50%
+}
+
+    
+/*Pedidos*/
+/*Busca*/
+#inputsecB{
+    border-radius: 40px;
+    display: flex;
+}
+#inputT{
+    color:white
+}
+#asidee{
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr 1fr  ;
+}
+#divGRID{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#btnfinal{
+    margin-left: 1000px;
+    margin-top: 150px;
+}
+
+/*Busca*/
